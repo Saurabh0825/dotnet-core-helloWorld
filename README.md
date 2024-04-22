@@ -47,7 +47,7 @@ __[Meet PCF Dev](https://blog.pivotal.io/pivotal-cloud-foundry/products/meet-pcf
 * Test the cloud service
 
   ```
-     $ curl -v 'http://dotnet-core-helloWorld.local.pcfdev.io'
+     $ curl -v 'http://dotnet-core-helloazure.local.pcfdev.io'
      
   ```
 
@@ -57,9 +57,9 @@ The CI/CD pipeline will build the and push the app to local pcf-dev instance.
 Setup the concourse pipeline as follows
 
   ```
-     $ fly -t local set-pipeline -p dotnet-core-helloWorld -c ci/pipeline.yml -l ci/credentials-local.yml
+     $ fly -t local set-pipeline -p dotnet-core-helloazure -c ci/pipeline.yml -l ci/credentials-local.yml
      
-     $ fly -t local unpause-pipeline -p dotnet-core-helloWorld
+     $ fly -t local unpause-pipeline -p dotnet-core-helloazure
      
   ```
 
