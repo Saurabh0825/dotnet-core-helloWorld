@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: dotnet-core-helloWorld
+  - name: dotnet-core-helloazure
     disk_quota: 1536M
     random-route: false
     buildpack: https://github.com/cloudfoundry/dotnet-core-buildpack#v3.1.1
