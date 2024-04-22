@@ -1,4 +1,4 @@
-# pipeline for dotnet-core-helloWorld app.
+# pipeline for dotnet-core-helloazure app.
 
 groups:
 - name: dotnet-core-hello-azure
