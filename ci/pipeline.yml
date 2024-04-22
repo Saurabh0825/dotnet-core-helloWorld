@@ -1,7 +1,7 @@
 # pipeline for dotnet-core-helloWorld app.
 
 groups:
-- name: dotnet-core-hello-world
+- name: dotnet-core-hello-azure
   jobs:
   - build-service
 
