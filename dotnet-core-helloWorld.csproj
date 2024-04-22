@@ -3,9 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <DebugType>portable</DebugType>
-    <AssemblyName>dotnet-core-helloWorld</AssemblyName>
+    <AssemblyName>dotnet-core-helloAzure</AssemblyName>
     <OutputType>Exe</OutputType>
-    <PackageId>dotnet-core-helloWorld</PackageId>
+    <PackageId>dotnet-core-helloAzure</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
