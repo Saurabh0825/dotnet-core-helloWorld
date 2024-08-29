@@ -53,4 +53,4 @@ jobs:
           app-name: 'dotNetSampleCode'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7CBF517B58334DBCB7C610AEA1B21DC6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_388B4F6EC7AE489B8A4FFEEB56F74E3A }}
